@@ -1,0 +1,220 @@
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: system-ui;
+}
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background: #000;
+    position: relative;
+  }
+  ::-webkit-scrollbar{
+    width:12px;
+}
+::-webkit-scrollbar-thumb{
+    background:linear-gradient(transparent,gray);
+    border-radius: 6px;
+}
+::-webkit-scrollbar-thumb:hover{
+    background:linear-gradient(transparent, #0FA3E2);
+    border-radius: 6px;
+}
+
+  .unibot{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: #fff;
+    gap:12px;
+    
+    position: absolute;
+    top:20px;
+    left:35px;
+    text-decoration: none;
+  }
+  .unibot p{
+    font-size: 32px;
+    font-weight: 700;
+}
+.unibot .icon{
+    font-size:5px;
+}
+  .wrapper {
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+    width:60%;
+    height: 500px;
+    background: #000;
+    box-shadow: 0 0 50px gray;/*50 #0ef*/
+    border-radius: 20px;
+    
+    padding: 40px;
+    overflow: hidden;
+    
+  }
+  
+  .form-wrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;/*width:40%*/
+    height: 100%; 
+    transition: 1s ease-in-out;
+    
+    
+  }
+  
+  
+  
+   h2{
+  
+        font-size: 30px;
+        color: #fff;
+        text-align: center;
+        margin-bottom: 35px;
+  }
+  .input-group {
+    position: relative;
+    margin: 30px 0;
+    border-bottom: 2px solid #fff;
+    width:100%;
+   
+  }
+  .sign-in.input-group{
+    position: relative;
+    margin: 30px 0;
+    border-bottom: 2px solid #fff;
+    width:100%;
+  }
+  .header{
+    display: flex;
+    justify-content: space-between;
+  }
+  .input-group1 {
+    position: relative;
+    width:40%;
+    border-bottom: 2px solid #fff;
+    
+   
+  }
+  .input-group2 {
+    position: relative;
+    width:40%;
+    border-bottom: 2px solid #fff;
+  }
+  .input-group label,.input-group1 label ,.input-group2 label  {
+    position: absolute;
+    top:50%;
+    left: 5px;
+    transform: translateY(-50%);
+    font-size: 16px;
+    color: white;
+    pointer-events: none;
+    transition: .5s;
+  }
+  
+  .input-group input, .input-group1 input, .input-group2 input{
+    width: 100%;
+    height: 40px;
+    font-size: 16px;
+    color: #fff;
+    padding: 0 5px;
+    background: transparent;
+    border: none;
+    outline: none;
+  }
+  .input-group input:focus~label,
+  .input-group input:valid~label {
+  top: -5px;
+  }
+.input-group1 input:focus~label,
+.input-group1 input:valid~label {
+  top: -5px;
+}
+.input-group2 input:focus~label,
+.input-group2 input:valid~label {
+  top: -5px;
+}
+button {
+    position: relative;
+    width: 40%;
+    height: 40px;
+    background: #0ef;
+    box-shadow: 0 0 10px #0ef;
+    font-size: 16px;
+    color: #000;
+    font-weight: 500;
+    cursor: pointer;
+    border-radius: 30px;
+    border: none;
+    outline: none;
+    left:30%;
+    transition: .5s;
+  }
+  button:hover{
+    background-color:gray;
+    color: white;
+  }
+  .signIn-link {
+    font-size: 14px;
+    text-align: center;
+    margin: 15px 0;
+  }.signUp-link {
+    font-size: 14px;
+    text-align: center;
+    margin: 15px 0;
+  }
+
+  .signIn-link p {
+    color: #fff;
+  }
+  .signIn-link p a {
+    color: #0ef;
+    text-decoration: none;
+    font-weight: 500;
+  }
+  .signIn-link p a:hover {
+    text-decoration: underline;
+  }
+  .signUp-link p {
+    color: #fff;
+  }
+  .signUp-link p a {
+    color: #0ef;
+    text-decoration: none;
+    font-weight: 500;
+  }
+  .signUp-link p a:hover {
+    text-decoration: underline;
+  }
+  .wrapper.active .form-wrapper.sign-up {
+    transform: translateY(-450px);
+  }
+  .wrapper .form-wrapper.sign-in {
+    position: absolute;
+    top: 450px;
+    left: 0;
+  }
+  .wrapper.active .form-wrapper.sign-in {
+    transform: translateY(-450px);
+  }
+  .form-wrapper.sign-in{
+    margin-left: 15px;
+  }
+  
+ .light{
+    
+        animation: animate .5s linear ;
+      }
+      @keyframes animate {
+        100% {
+          filter: hue-rotate(360deg);
+        }
+      }
+ 

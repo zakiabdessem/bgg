@@ -1,0 +1,359 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+body{
+    background: #000;
+    height: 100vh;
+}
+::-webkit-scrollbar{
+    width:12px;
+}
+::-webkit-scrollbar-thumb{
+    background:linear-gradient(transparent,gray);
+    border-radius: 6px;
+}
+::-webkit-scrollbar-thumb:hover{
+    background:linear-gradient(transparent, #0FA3E2);
+    border-radius: 6px;
+}
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 95%;
+    margin:auto;
+    margin-top: 10px;
+    
+   
+}
+.unibot{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #fff;
+    gap:12px;
+   
+
+}
+.unibot p{
+    font-size: 32px;
+    font-weight: 700;
+}
+.unibot .icon{
+    font-size:5px;
+}
+
+.ulbutt{
+    display: flex;
+    align-items: center;
+    
+   
+}
+nav div ul{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    list-style: none;
+    margin-right:45px;
+}
+nav div ul li{
+    margin:30px 25px;
+    
+}
+a{
+    text-decoration: none;
+}
+ nav ul li a:hover,.home{
+    color:rgb(56, 134, 165)
+
+}
+nav div ul li a,.signup ,.signup a{
+   font-size: 18px;
+   font-weight: 500;
+   color: #fff;
+}
+
+
+button{
+    height: 45px;
+    width:117px;
+    border-radius: 16px;
+    background: linear-gradient(96.08deg, #7e7c81 35.18%, #5555c1 84.59%);
+    
+    font-size: 18px;
+    font-weight: 500;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+}
+.signup{
+    background: linear-gradient(96.08deg, #7e7c81 35.18%, #040405 84.59%);
+   
+}
+.signup:hover{
+    
+    background: linear-gradient(96.08deg,#040405 35.18% , #0FA3E2 84.59%  );
+}
+button:hover{
+   /* */
+    font-size: larger;
+    
+    
+}
+.getstarted:hover{
+    height: 48px;
+    width:120px;
+    box-shadow: 0 0 50px rgb(49, 171, 180);
+}
+.container1{
+    width:992px;
+    height: 417px;
+    margin-top: 80px ;
+    margin-left: 138px;
+    background:linear-gradient(50deg, #0FA3E2 , black 70%);
+    display:flex;
+    align-items: center;
+    justify-content:space-around;
+    border-radius:18px;
+    color: #fff;
+    position: relative;
+
+
+}
+.container1 h2{
+    
+   font-size: 40px;
+   font-weight: 600;
+   line-height: 48.76px;
+   text-align: left;
+   margin-bottom: 40px;
+
+
+}
+.container1 p{
+     
+font-size: 20px;
+font-weight: 500;
+line-height: 24.38px;
+text-align: left;
+margin-bottom: 20px;
+
+
+}
+.getstarted{
+    position: absolute;
+    bottom: 40px;
+    left:40px;
+    color: #fff;
+    margin-top: 10px;
+    
+}
+.getstarted a{
+    color: #fff;
+}
+.container2{
+    width: 691px;
+    height: 221px;
+    margin-top: 60px;
+    margin-left: 284px;
+    color: #fff;
+    text-align: center;
+
+
+}
+.container2 h2{
+   
+   font-size: 36px;
+   font-weight: 500;
+   line-height: 43.88px;
+   margin-top: 20px;
+
+
+}
+.container2 p{
+    
+   font-size: 16px;
+   font-weight: 500;
+   line-height: 19.5px;
+   margin-top: 30px;
+   
+
+}
+ .container2 a,.container3 a{  /*container2*/
+    
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 16.42px;
+  color: rgb(56, 134, 165);
+  transition: o.5s;
+  
+}
+ .container2 a:hover,.container3 a:hover{   /*container2*/
+    font-size: 20px;
+    color: rgb(102, 103, 104);
+    border-top: #0FA3E2 2px solid;
+    border-left: #0FA3E2 2px solid;
+    padding-left: 5px;
+}
+.container3{
+    width: 992px;
+    height: 461px;
+    margin-top:60px;
+    margin-left: 136px;
+    background: rgba(231, 240, 255, 1);
+
+  
+    display:flex;
+    justify-content: center;
+    
+   align-items: center;
+    border-radius: 18px;
+
+
+}
+#content{
+    width: 706px;
+    margin-right: 10px;
+    
+    padding: 60px 15px;
+
+}
+ .container3 h2{
+    font-size: 40px;
+    font-weight: 500;
+    line-height: 48.76px;
+    text-align: left;
+    text-transform: uppercase;
+    margin-bottom: 30px;
+}
+.container3 p{
+   
+   font-size: 16px;
+   font-weight: 500;
+   line-height: 19.5px;
+   text-align: left;
+   margin-bottom: 20px;
+}
+#read-more-btn{
+    background: linear-gradient(96.08deg, #8743FF 35.18%, #3A36F1 84.59%);
+}
+#read-more-btn:hover{
+    box-shadow: 0 0 15px rgb(131, 134, 134);
+    cursor: pointer;
+}
+#container3img{
+    transition: 0.5s;
+}
+#container3img:hover{
+    clip-path:  circle(40%);
+    margin-bottom: 30px;
+    box-shadow: 0 0 50px #0ef;
+    
+}
+    
+
+.container4{
+    width: 776px;
+    height: 774px;
+    top: 1385px;
+    margin-left: 237px;
+    color: #fff;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top:80px
+
+}
+.conversation{
+    height:60%;
+    width:90%;
+    overflow:hidden;
+}
+.conversation img{
+    width:100%;
+    height: 100%;
+    border-radius: 30px;
+    clip-path: polygon(0 0, 100% 0, 100% 80%, 0 100%);
+    
+    
+}
+
+.container4 a{
+    color: #0FA3E2;
+}
+.container4 h2{
+   
+    font-size: 32px;
+    font-weight: 500;
+    line-height: 39.01px;
+    text-transform: uppercase;
+    margin:40px 0px;
+}
+.container4 p{
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 30px;
+}
+.container5{
+    width: 997px;
+    height: 151px;
+    margin:auto;
+    background: linear-gradient(120deg, #ceced2 32.71%, #1f77b5 103.08%);
+    display: flex;
+    align-items: center;
+    border-radius: 18px;
+    justify-content: space-between;
+}
+.container5 .text{
+    margin-left: 20px;
+}
+
+.gmail{
+    display: flex;
+    justify-content: space-between;
+    margin-right:70px;
+    font-weight: 500;
+}
+.profileimg{
+    height: 100px;
+    width: 100px;
+}
+.profileimg img{
+    width:100%;
+}
+.text h2{
+    margin-bottom: 15px;
+    
+  font-size: 36px;
+  font-weight: 500;
+  line-height: 43.88px;
+}
+.text p{
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 19.5px;
+}
+.thank{
+    width: 887px;
+    height: 52px;
+    
+    border-top: 2px solid skyblue;
+   
+    text-align:center;
+    
+    padding-top: 30px;
+    margin:100px auto;
+    position: relative;
+    
+}
+.thank p{
+    text-transform: uppercase;
+    font-size:16px;
+    font-weight: 500;
+    color: #fff;
+    letter-spacing: 1px;
+
+}
